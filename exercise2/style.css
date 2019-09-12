@@ -25,3 +25,29 @@ background-color: beige}
 .container img{max-width:100%;
 height: auto;
 display: block;}
+
+
+
+#container{
+}
+
+.biz-card{
+  width: 300px;
+  height: 70px;
+    text-align: center
+  background-color: beige;
+  display: inline-block;
+  margin: 10px;
+    text-transform: uppercase;
+
+}
+
+.section{
+  float: left;
+  width: 200px;
+  height: 30px;
+  margin: 10px 0px 0px 10px;
+}
+
+
+
