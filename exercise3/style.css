@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Canela";
+  src: url("Canela-Thin.woff") 
+      format("woff");
+}
+
+div {
+  font-family: Canela-Thin;
+}
+
+body{
+    background-color: #E2E1D9;
+}
+
+
+h1{
+    font-family: "Canela-thin", "serif";
+    font-size: 18vw;
+    letter-spacing: 0.01em; 
+    text-align: center;
+    margin: 0px;
+}
+
+h2{
+    font-family: "Canela-thin", "serif";
+    font-size: 6vw;
+    text-align: left;
+    padding: 0px 3vw;
+    max-width: 450px;
+}
+
+h3{
+    font-family: "Canela-thin";
+    font-size: 3vw;
+    text-align: left;
+}
+
+p{
+    font-family: "Canela-thin";
+    font-size: 18px;
+    max-width: 450px;
+    text-align: left;
+    letter-spacing: 0.6px;
+    line-height: 1.2;
+ }
+
+#container{
+    text-align: center;
+}
+
+
+.header{
+    padding: 8vw 0px;
+    border-bottom: 1px solid black;     
+}
+
+
+.mel{
+   display: inline-block;
+    float: left;
+    width: 49.9%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.hongkong{
+    display: inline-block;
+    float: right;
+    width: 49.9%;
+    border-bottom: 1px solid black;
+}
+
+.biology-design{
+    display: inline-block;
+    padding: 30px;
+}
+
+.work{
+    display: block;
+    border-top: 1px solid black;
+}
+
+.inspiration{
+    display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+.thanks{
+    display: inline-block;
+}
+
+#back{text-align: center;}
+
+
+@media only screen and (max-width: 600px) {
+    p{
+    font-size: 18px; 
+    letter-spacing: 0.5px;
+     color:  ;
+ }
+}

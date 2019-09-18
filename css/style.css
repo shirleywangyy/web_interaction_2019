@@ -20,7 +20,8 @@ width: 350px;
 
 .container{width:50%;
 height: auto;
-overflow: hidden;}
+overflow: hidden;
+background-color: beige;}
 .container img{max-width:100%;
 height: auto;
 display: block;}
