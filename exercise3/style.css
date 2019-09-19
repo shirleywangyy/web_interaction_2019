@@ -48,26 +48,27 @@ p{
     text-align: center;
 }
 
+.container2{
+    min-height: 21.9vw;
+    border-bottom: 1px solid black;     
+}
 
 .header{
     padding: 8vw 0px;
     border-bottom: 1px solid black;     
 }
 
-
 .mel{
    display: inline-block;
     float: left;
-    width: 49.9%;
+    width: 50%;
     border-right: 1px solid black;
-    border-bottom: 1px solid black;
 }
 
 .hongkong{
     display: inline-block;
-    float: right;
-    width: 49.9%;
-    border-bottom: 1px solid black;
+    float: left;
+    width: 49%;
 }
 
 .biology-design{
@@ -75,10 +76,12 @@ p{
     padding: 30px;
 }
 
+
 .work{
     display: block;
     border-top: 1px solid black;
 }
+
 
 .inspiration{
     display: block;
@@ -89,6 +92,7 @@ p{
 
 .thanks{
     display: inline-block;
+    text-align: center;
 }
 
 #back{text-align: center;}
