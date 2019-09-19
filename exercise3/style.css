@@ -101,8 +101,6 @@ p{
 
 
 @media only screen and (max-width: 600px) {
-    body{
-        background-color: black;}
     h1, h2, h3, p{
     color:white;
   
@@ -126,6 +124,7 @@ justify-content: center;}
 width:80%;
 height: auto;
 overflow: hidden;
+align-content: center;
 background-color: beige}
 .container img{max-width:100%;
 height: auto;
