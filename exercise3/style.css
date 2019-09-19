@@ -74,12 +74,14 @@ p{
 .biology-design{
     display: inline-block;
     padding: 30px;
+
 }
 
 
 .work{
     display: block;
     border-top: 1px solid black;
+    text-align: center;
 }
 
 
@@ -87,8 +89,8 @@ p{
     display: block;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    text-align: center;
 }
-
 
 .thanks{
     display: inline-block;
@@ -99,9 +101,36 @@ p{
 
 
 @media only screen and (max-width: 600px) {
-    p{
-    font-size: 18px; 
-    letter-spacing: 0.5px;
-     color:  ;
- }
+    body{
+        background-color: black;}
+    h1, h2, h3, p{
+    color:white;
+  
 }
+}
+
+
+#containerwork{
+width:80%;
+height: auto;
+overflow: hidden;
+background-color: beige}
+.container img{max-width:100%;
+height: auto;
+display: block;
+justify-content: center;}
+}
+
+
+#containerinspo{
+width:80%;
+height: auto;
+overflow: hidden;
+background-color: beige}
+.container img{max-width:100%;
+height: auto;
+display: block;
+justify-content: center;}
+}
+
+
