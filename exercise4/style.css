@@ -95,3 +95,9 @@ p{
   animation: rotate 60s infinite linear;
 }
 
+
+.container-img{
+    position: relative;
+    top: 450px;
+}
+
