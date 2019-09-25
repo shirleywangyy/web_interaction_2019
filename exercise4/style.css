@@ -1,0 +1,97 @@
+body{
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: "Canela-thin";
+    font-size: 5vw;
+    max-width: 450px;
+    text-align: left;
+    letter-spacing: 0.6px;
+    line-height: 1.2;
+    position: absolute;
+    left: 1.2em;
+ }
+
+
+.clockface{
+    width: 25em;
+    height: 25em;
+    background-color: darkslategray;
+    border-radius: 50%;
+    position: absolute;
+    transition: background-color 0.5s ease-out;
+}
+
+.clockface:hover{
+    background-color: firebrick;
+}
+
+
+.hours{
+    width: 20px;
+    height: 20px;
+    background-color: darkgray;
+    border-radius: 50%;
+    position: absolute;
+    left: 48.75%;
+    top: 30%;
+    transform-origin: 50% 100%;
+    z-index: 20;
+}
+
+.minutes{
+    width: 10px;
+    height: 10px;
+    background-color: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform-origin: 50% 100%;
+    z-index: 15;
+}
+
+.seconds{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform-origin: 50% 100%;
+    z-index: 15;
+}
+
+
+.hours-container, .minutes-container, .seconds-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+
+.hours-container {
+  animation: rotate 43200s infinite linear;
+}
+.minutes-container {
+  animation: rotate 3600s infinite linear;
+}
+.seconds-container {
+  animation: rotate 60s infinite linear;
+}
+

@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Canela";
-  src: url("Canela-Thin.woff") 
-      format("woff");
+  src: url("fonts/Canela-Thin.woff") format("woff");
 }
 
 div {
@@ -58,7 +57,7 @@ p{
     border-bottom: 1px solid black;     
 }
 
-.mel{
+.mel{     
    display: inline-block;
     float: left;
     width: 50%;
