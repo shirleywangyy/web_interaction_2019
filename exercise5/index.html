@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Name Logo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+        <style>
+            
+            #name{
+                text-align: center;
+                
+            }
+            
+            #logo{
+                text-align: center;
+                background-color: white;
+                padding: 20px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            body{           
+                background-color: darkorange;
+            }
+
+        </style>
+
+      </head>
+    
+    
+    <body>
+        
+                <p id="name">Shirley</p>
+
+        
+        <div id="logo">
+            
+            <button type="button" 
+onclick="document.getElementById('name').style.color = 'blue'"> </button>
+        
+             <button type="button" 
+onclick="document.getElementById('name').style.color = 'green'"> </button>
+            
+             <button type="button" 
+onclick="document.getElementById('name').style.color = 'white'"> </button>
+            
+             <button type="button" 
+onclick="document.getElementById('name').style.color = 'yellow'"> </button>
+            
+            
+            <br>
+            <br>
+            
+        
+            <select id="myFonts" onchange="fontFunction()">
+
+            <option value="Helvetica"> Helvetica </option>
+            <option value="Times New Roman"> Times New Roman </option>
+            <option value="DIN"> DIN Condensed</option>
+            
+
+            </select>
+            
+        
+            <br>
+            <br>
+            
+            <input id="size" type="range" value="16" min="40" max="150" step="1" oninput="sizeFunction()">
+            
+        
+          
+        </div>
+    
+        
+        
+    </body>
+       
+      <script src="js/scripts.js"></script>   
+    
+</html>
