@@ -4,38 +4,18 @@
     <title>Name Logo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-        <style>
-            
-            #name{
-                text-align: center;
-                
-            }
-            
-            #logo{
-                text-align: center;
-                background-color: white;
-                padding: 20px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            body{           
-                background-color: darkorange;
-            }
+    <link href="style.css" type="text/css" rel="stylesheet">
 
-        </style>
+  
+       
 
       </head>
     
     
     <body>
         
-                <p id="name">Shirley</p>
-
         
-        <div id="logo">
+        <div id="edit">
             
             <button type="button" 
 onclick="document.getElementById('name').style.color = 'blue'"> </button>
@@ -56,9 +36,9 @@ onclick="document.getElementById('name').style.color = 'yellow'"> </button>
         
             <select id="myFonts" onchange="fontFunction()">
 
-            <option value="Helvetica"> Helvetica </option>
             <option value="Times New Roman"> Times New Roman </option>
-            <option value="DIN"> DIN Condensed</option>
+            <option value="Futura"> Futura </option>
+            <option value="Canela"> Canela </option>
             
 
             </select>
@@ -68,11 +48,20 @@ onclick="document.getElementById('name').style.color = 'yellow'"> </button>
             <br>
             
             <input id="size" type="range" value="16" min="40" max="150" step="1" oninput="sizeFunction()">
-            
         
-          
+            
+            
         </div>
     
+        <div class= "logo"> 
+                <p id="name">Shirley</p>
+        </div>
+        
+            <div class="back"> 
+            <p id="back"> <a href="../index.html">Back</a><p>
+          </div>
+        
+        
         
         
     </body>

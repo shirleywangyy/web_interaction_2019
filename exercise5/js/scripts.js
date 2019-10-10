@@ -1,23 +1,13 @@
-var clock = document.getElementById("name");
+var text = document.getElementById("name");
 
 
 
 
-function fontFunction() {
-    
-    var font = document.getElementById("myFonts").value;
-    console.log(font);
-    clock.style.fontFamily = "Helvetica"
-    
-     var font = document.getElementById("myFonts").value;
-    console.log(font);
-    clock.style.fontFamily = 'helvetica'
-    
-    
+function fontFunction(){
+    var font = document.getElementById("MyFonts").value;
+    console.log(font)
+    text.style.fontFamily = "Times New Roman, Futura, Canela";
 }
-
-
-
 
 
 //size 
@@ -26,12 +16,8 @@ function sizeFunction(){
     
     var checkSize = document.getElementById("size").value;
 
-    clock.style.fontSize = checkSize + "px";
+    text.style.fontSize = checkSize + "px";
 }
-
-
-
-
 
 
 
