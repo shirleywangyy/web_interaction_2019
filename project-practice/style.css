@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela-Thin.woff") format("woff");
+}
+
+div {
+  font-family: Canela-Thin;
+}
+
+body{
+    background-color: #E2E1D9;
+    font-family: Canela;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #E2E1D9;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer{
+    background-color: #E2E1D9;
+    padding: 10px 20px;
+}
+
+section{
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    background-color: darkcyan;
+    margin: auto;
+    width: 30%;
+    
+}
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+}
+
+
+li{
+    display: inline-block;
+margin-right: 20px;}
+
+
+
+
+
+
+
+
+
