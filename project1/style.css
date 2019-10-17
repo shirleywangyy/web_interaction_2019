@@ -7,10 +7,12 @@ h1{
     font-size: 8vw;
     letter-spacing: 1px;
     text-align: center;
+    margin: 5%;
+    padding: 0;
 }
 
 h2{
-    font-size: 2.5vw;
+    font-size: 3vw;
     letter-spacing: 1px;
 }
 
@@ -25,12 +27,12 @@ body{
 }
 
 header{
-    margin: 40px 50px;
-    padding: 10px;
+    margin: 10% 5%;
+    padding: 0% 0%;
 }
 
 footer{
-    padding: 40px 0px;
+    padding: 2% 0%;
     margin: 0px;
     text-align: center;
     list-style-type:none;
@@ -49,12 +51,13 @@ footer{
 
 
 .top{
-    margin: 2% 25%;
+    margin: 2% 10%;
     padding: 10px;
 }
 
 .chat{
-    padding: 80px;
+    margin: 5% 0%;
+    padding: 5% 5%;
     display: flex;
     flex-direction: row;
 }
@@ -78,6 +81,33 @@ footer{
     display: inline-block;
 }
 
+.btn {
+  border: none;
+  background-color: darkred;
+  padding: 14p 28px;
+  font-family: "gill sans";
+  font-size: 1.5vw;
+  cursor: pointer;
+    
+    margin: auto;
+    width: 20%;
+    font-family: "gill sans";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: red;}
+
+.eat {color: white;}
+.gift {color: white;}
+.classic {color: white;}
+.fun {color: white;}
+.default {color: white;}
+
 
 
 .illustration{
@@ -85,7 +115,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding: 60px;
+    padding:0;
 }
 .illustration img{
     margin: auto;
