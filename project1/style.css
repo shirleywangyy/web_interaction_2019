@@ -4,8 +4,8 @@
 }
 
 h1{
-    color: darkorange;
-    font-size: 8vw;
+    color: black;
+    font-size: 5vw;
     letter-spacing: 1px;
     text-align: center;
     margin: 5%;
@@ -14,18 +14,19 @@ h1{
 
 h2{
     color: black;
-    font-size: 3vw;
+    font-size: 2.5vw;
     letter-spacing: 1px;
+    font-family: "Museo";
+    font-weight: 400;
 }
 
 body{
     color: black;
-    background-color: #ebe8e1;
+    background-color: #ffeec8;
     font-family: Canela;
     font-weight: 500;
     margin: 0;
     padding: 0;
-
 }
 
  a {
@@ -34,19 +35,23 @@ body{
 
 
 header{
-    margin: 10% 5%;
+    margin: 10% 20%;
     padding: 0% 0%;
+    text-align: center;
+    display: block; 
+
 }
 
 footer{
     padding: 2% 0%;
-    margin: 0px;
+    margin: 5% 0% 0% 0%;
     text-align: center;
     list-style-type:none;
     font-family: "gill sans";
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 1.5px;
+    background-color: #ff9a47;
 }
 
 .footer li{
@@ -58,11 +63,11 @@ footer{
 
 
 .textbox{
-    margin: 2% 10%;
-    padding: 0px 150px;
+    margin: 5% 10%;
+    padding: 100px 100px;
     text-align: center;
     margin: auto;
-    background : #ebe8e1;
+    background : #ffeec8;
 }
 
 input {
@@ -71,29 +76,24 @@ input {
   text-align: center;
   font-family: "Canela";
   font-size: 40px;
+    
 }
-
-#textarea{
-    background-color: whitesmoke;
-    border: 0px;
-}
-
 
 
 .legend{
     text-align: center;
     width: 80%;
+    background : #ffeec8;
+    margin: 5% 10%;
+    padding: 0px 100px 50px 100px;
     text-align: center;
     margin: auto;
-    background : #ebe8e1;
-    padding: 10px 0px 50px 0px;
 }
 
 
-
-table td, table th{
+table td{
     text-align: center;
-    padding: .75rem;
+    padding: 1rem;
 }
 
 
@@ -114,7 +114,13 @@ table td, table th{
 }
 
 
+.svg{width: 15%;
+padding: 20px;
+height: 150px}
 
+
+
+<!–– OLD CODE ––> 
 
 .button{
     background-color: orange;
@@ -155,23 +161,6 @@ table td, table th{
 .classic {color: white;}
 .fun {color: white;}
 .default {color: white;}
-
-.illustration{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding:0;
-}
-.illustration img{
-    margin: auto;
-    width: 50%;
-    height: auto;
-    display: block;
-    padding: 30px;
-}
-
-
 
 
 
