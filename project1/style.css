@@ -14,7 +14,7 @@ h1{
 
 h2{
     color: black;
-    font-size: 2.5vw;
+    font-size: 2vw;
     letter-spacing: 1px;
     font-family: "Museo";
     font-weight: 400;
@@ -26,7 +26,7 @@ body{
     font-family: Canela;
     font-weight: 500;
     font-size: 1em;
-    margin: 0;
+    margin: 2em;
     padding: 0;
 }
 
@@ -39,20 +39,19 @@ header{
     margin: 10% 20%;
     padding: 0% 0%;
     text-align: center;
-    display: block; 
-
+    display: block;
 }
 
 footer{
-    padding: 2% 0%;
-    margin: 5% 0% 0% 0%;
+    padding: 1% 0%;
+    margin: 1% 0% 0% 0%;
     text-align: center;
     list-style-type:none;
     font-family: "gill sans";
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1.5px;
-    background-color: #ff9a47;
+    background-color: #ffeec8;
 }
 
 .footer li{
@@ -62,11 +61,11 @@ footer{
 
 
 .legend{
-    text-align: center;
-    width: 80%;
-    background : #ffeec8;
-    margin: 5% 10%;
-    padding: 0px 100px 50px 100px;
+    text-align: left;
+    background: #ffeec8;
+    width: 100%;
+    margin: 20px 20px;
+    padding: 100px 50px 50px 0px;
     text-align: center;
     margin: auto;
 }
@@ -74,9 +73,12 @@ footer{
 
 table td{
     text-align: center;
-    padding: 1rem;
+    padding: 0rem;
 }
 
+
+.corgi-gif img{width: 200px;
+height: auto;}
 
 .corgi img{
     display: block;
@@ -86,7 +88,7 @@ table td{
 }
 
 
-.svg{width: 8%;
+.svg{width: 10%;
 padding: 1%;
 height: 150px;
 }
