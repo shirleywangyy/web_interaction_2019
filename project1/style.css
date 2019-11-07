@@ -16,7 +16,7 @@ h2{
     color: black;
     font-size: 2vw;
     letter-spacing: 1px;
-    font-family: "Museo";
+    font-family: "gill sans";
     font-weight: 400;
 }
 
@@ -73,7 +73,7 @@ footer{
 
 table td{
     text-align: center;
-    padding: 0rem;
+    pasdding: 0rem;
 }
 
 
