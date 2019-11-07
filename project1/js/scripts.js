@@ -9,6 +9,9 @@ $(document).keydown(function(keyPressed) {
    $(".newDiv img:last-child").remove();
  }
     
+    
+    
+    
  if (keyPressed.keyCode == 65) {
    $("#newDiv").append("<img class='svg' src='images/Corgi_A.svg'>");
  }
@@ -114,7 +117,7 @@ $(document).keydown(function(keyPressed) {
  }
     
         if (keyPressed.keyCode == 88) {
-   $("#newDiv").append("<img class='svg' src='images/Corgi_X.svg'>");
+   $("#newDiv").append("<img class='svg' src='images/Corgi1.svg'>");
  }
     
         if (keyPressed.keyCode == 89) {
@@ -123,14 +126,13 @@ $(document).keydown(function(keyPressed) {
     
     
         if (keyPressed.keyCode == 90) {
-   $("#newDiv").append("<img class='svg' src='images/Corgi_Z.svg'>");
+   $("#newDiv").append("<img class='svg' src='images/Corgi1.svg'>");
  }
     
     
         if (keyPressed.keyCode == 32) {
    $("#newDiv").append("<img class='svg' src='images/Space.svg'>");
  }
-    
     
     
     

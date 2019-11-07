@@ -25,6 +25,7 @@ body{
     background-color: #ffeec8;
     font-family: Canela;
     font-weight: 500;
+    font-size: 1em;
     margin: 0;
     padding: 0;
 }
@@ -60,26 +61,6 @@ footer{
 }
 
 
-
-
-.textbox{
-    margin: 5% 10%;
-    padding: 100px 100px;
-    text-align: center;
-    margin: auto;
-    background : #ffeec8;
-}
-
-input {
-  width: 80%;
-  height: 200px;
-  text-align: center;
-  font-family: "Canela";
-  font-size: 40px;
-    
-}
-
-
 .legend{
     text-align: center;
     width: 80%;
@@ -102,8 +83,19 @@ table td{
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
-    
 }
+
+
+.svg{width: 8%;
+padding: 1%;
+height: 150px;
+}
+
+
+
+
+
+<!–– OLD CODE ––> 
 
 .illustration img{
     margin: auto;
@@ -114,16 +106,22 @@ table td{
 }
 
 
-.svg{width: 15%;
-padding: 10px;
-height: 150px;
+.textbox{
+    margin: 5% 10%;
+    padding: 100px 100px;
+    text-align: center;
+    margin: auto;
+    background : #ffeec8;
 }
 
+input {
+  width: 80%;
+  height: 200px;
+  text-align: center;
+  font-family: "Canela";
+  font-size: 40px;    
+}
 
-
-
-
-<!–– OLD CODE ––> 
 
 .button{
     background-color: orange;
