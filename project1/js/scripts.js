@@ -5,7 +5,6 @@ $(document).keydown(function(keyPressed) {
    $(".newDiv img:last-child").remove();
  }
 
-
      if (keyPressed.keyCode == 46) {
    $(".newDiv img:last-child").remove();
  }
@@ -35,7 +34,6 @@ $(document).keydown(function(keyPressed) {
      if (keyPressed.keyCode == 70) {
    $("#newDiv").append("<img class='svg' src='images/Corgi_F2.svg'>");
  }
-      
     
      if (keyPressed.keyCode == 71) {
    $("#newDiv").append("<img class='svg' src='images/Corgi_G.svg'>");
