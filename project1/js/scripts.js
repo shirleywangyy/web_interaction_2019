@@ -9,8 +9,9 @@ $(document).keydown(function(keyPressed) {
    $("#newDiv img:last-child").remove();
  }
     
-  
-    
+         if (keyPressed.keyCode == 32) {
+   $("#newDiv").append("<img class='svg' src='images/Space.svg'>");
+ }
     
     
  if (keyPressed.keyCode == 65) {
@@ -132,10 +133,7 @@ $(document).keydown(function(keyPressed) {
  }
     
     
-        if (keyPressed.keyCode == 32) {
-   $("#newDiv").append("<img class='svg' src='images/Space.svg'>");
- }
-    
+ 
     
     
 });
