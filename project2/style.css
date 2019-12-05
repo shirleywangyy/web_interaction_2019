@@ -1,0 +1,58 @@
+@font-face {
+font-family: 'Cormorant Garamond', serif;
+
+  src: url("fonts/CormorantGaramond-Regular.woff") format("woff");
+}
+
+
+h1{
+    color: black;
+    font-size: 60px;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+
+
+body{
+    color: black;
+    font-family:"Cormorant Garamond";
+    font-weight: 500;
+    font-size: 1em;
+    margin: 2em;
+    padding: 0;
+}
+
+
+.show{
+    display: none;
+}
+    
+span:hover + .show{
+    display: block;
+}
+
+
+#star1{
+    text-align: center;
+    padding: 5%;
+
+}
+
+#star2{
+    text-align: left;
+    padding: 10% 40%;
+}
+
+#star3{
+    text-align: left;
+    padding: 10px 100px;
+}
+
+#star4{
+    text-align: right;
+    padding: 10px 100px;
+
+}
+
+
