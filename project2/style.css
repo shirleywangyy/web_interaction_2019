@@ -5,11 +5,14 @@ font-family: 'Cormorant Garamond', serif;
 }
 
 
+
+
 h1{
     color: black;
     font-size: 60px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     padding: 0;
+    margin: 0;
 }
 
 
@@ -24,6 +27,9 @@ body{
 }
 
 
+
+
+
 .show{
     display: none;
 }
@@ -33,26 +39,59 @@ span:hover + .show{
 }
 
 
+
+
+
 #star1{
-    text-align: center;
-    padding: 5%;
+    text-align: left;
+    padding: 50px 40% 20px 45%;
 
 }
+
 
 #star2{
-    text-align: left;
-    padding: 10% 40%;
+    text-align: right;
+    padding: 20px 30% 20px 40%;
 }
+
 
 #star3{
     text-align: left;
-    padding: 10px 100px;
+    padding: 20px 75% 20px 25%;
 }
+
 
 #star4{
-    text-align: right;
-    padding: 10px 100px;
-
+    text-align: left;
+    padding: 5px 85% 5px 15%;
 }
 
 
+#star5{
+    text-align: left;
+    padding: 5px 85% 5px 20%;
+}
+
+
+#star6{
+    text-align: right;
+    padding: 30px 20% 30px 40%;
+}
+
+
+#star7{
+    text-align: left;
+    padding: 5px 40% 5px 45%;
+}
+
+
+#star8{
+    text-align: center;
+    padding: 5px 70% 15px 40%;
+}
+
+
+#star9{
+    text-align: right;
+    padding: 5px 60% 15px 45%;
+}
