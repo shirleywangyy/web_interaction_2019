@@ -8,11 +8,12 @@ font-family: 'Cormorant Garamond', serif;
 
 
 h1{
-    color: black;
-    font-size: 60px;
+    color: dark darkslategrey;
+    font-size: 50px;
     letter-spacing: 0px;
     padding: 0;
     margin: 0;
+    opacity: 80%;
 }
 
 
@@ -21,8 +22,8 @@ body{
     color: black;
     font-family:"Cormorant Garamond";
     font-weight: 500;
-    font-size: 1em;
-    margin: 2em;
+    font-size: 1.4em;
+    margin: 0;
     padding: 0;
 }
 
@@ -34,24 +35,22 @@ body{
     display: none;
 }
     
-span:hover + .show{
-    display: block;
+
+
+#title{text-align: center;
+    
 }
-
-
-
-
 
 #star1{
     text-align: left;
-    padding: 50px 40% 20px 45%;
+    padding: 60px 40% 40px 45%;
 
 }
 
 
 #star2{
     text-align: right;
-    padding: 20px 30% 20px 40%;
+    padding: 60px 30% 30px 40%;
 }
 
 
@@ -63,19 +62,19 @@ span:hover + .show{
 
 #star4{
     text-align: left;
-    padding: 5px 85% 5px 15%;
+    padding: 5px 60% 5px 15%;
 }
 
 
 #star5{
     text-align: left;
-    padding: 5px 85% 5px 20%;
+    padding: 5px 60% 5px 20%;
 }
 
 
 #star6{
     text-align: right;
-    padding: 30px 20% 30px 40%;
+    padding: 60px 20% 60px 40%;
 }
 
 
@@ -86,12 +85,12 @@ span:hover + .show{
 
 
 #star8{
-    text-align: center;
-    padding: 5px 70% 15px 40%;
+    text-align: left;
+    padding: 5px 30% 15px 40%;
 }
 
 
 #star9{
     text-align: right;
-    padding: 5px 60% 15px 45%;
+    padding: 5px 45% 15px 40%;
 }

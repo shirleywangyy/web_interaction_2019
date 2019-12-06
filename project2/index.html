@@ -13,24 +13,14 @@
       
       <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
 
-      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   </head>
 
     
      <body>
     
-        <header>
-            <h1>Life as a Constellation</h1>
-          
-        </header>
-        
-       
-                <span>Hover over the stars — Connect them to reveal the bigger picture  
-                </span>
-               
-    <br>
-    <br>
-         
+   
          <div id="star1">
                 <span>*</span>
                 <div class = "show">Creating memorable experiences</div>  
@@ -46,7 +36,7 @@
 
            <div id="star3">
                 <span>*</span>
-                <div class = "show">Rich storytelling</div>       
+                <div class = "show">Rich storytelling</div>  
             </div>
          
          
@@ -55,6 +45,10 @@
                <div class = "show">Bold visuals</div> 
              </div>
              
+                        <div id="title">
+                            <h1>Design as a Constellation</h1>
+                        </div>
+         
            
          <div id="star5">
                 <span>*</span>
@@ -71,7 +65,7 @@
          
              <div id="star7">
                 <span>*</span>
-               <div class = "show">Constantly learning</div> 
+               <div class = "show">Constant learning</div> 
              </div>
                  
          
@@ -88,7 +82,71 @@
              </div>
                  
          
-         
+         <script>
+         $('#star1').click(function(){
+             
+             var toggler = $(this).find('.show');
+             toggler.toggle();
+         })
+             
+             
+        $('#star2').click(function(){
+             
+             var toggler = $(this).find('.show');
+             toggler.toggle();
+         })
+             
+             
+        $('#star3').click(function(){
+             
+             var toggler = $(this).find('.show');
+             toggler.toggle();
+         })
+                      
+             
+        $('#star4').click(function(){
+             
+             var toggler = $(this).find('.show');
+             toggler.toggle();
+         })
+             
+         $('#star5').click(function(){
+             
+             var toggler = $(this).find('.show');
+             toggler.toggle();
+         })
+             
+             
+    
+         $('#star6').click(function(){
+             
+             var toggler = $(this).find('.show');
+             toggler.toggle();
+         })
+             
+             
+         $('#star7').click(function(){
+             
+             var toggler = $(this).find('.show');
+             toggler.toggle();
+         })
+               
+             
+        $('#star8').click(function(){
+             
+             var toggler = $(this).find('.show');
+             toggler.toggle();
+         })
+             
+            
+          $('#star9').click(function(){
+             
+             var toggler = $(this).find('.show');
+             toggler.toggle();
+         })
+             
+             
+         </script>
          
     </body>
 
